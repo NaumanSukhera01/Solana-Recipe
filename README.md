@@ -27,3 +27,17 @@ https://www.sec3.dev/blog/all-about-anchor-account-size
 
 
 https://www.soldev.app/course/anchor-pdas
+
+
+# SPL Token Extension
+## Mint Close Authority 
+will close the token mint account 
+
+
+Remove token,treat as vaccant address
+
+
+Only valid if supply is 0 
+
+
+spl-token --program-id TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb close-mint <Mint Address>
